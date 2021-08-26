@@ -4,7 +4,7 @@
 
 <!-- Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files. -->
 
-### **PatFidner: Finding Patches for Open Source Software Vulnerabilities**
+## Finding Patches for Open Source Software Vulnerabilities
 
 Open source software (OSS) vulnerability management has been becoming an open problem. Vulnerability databases provide valuable data that are needed to address open source vulnerabilities. Recently, there arises a growing concern about the information quality of vulnerability databases. In particular, it is unclear how is the quality of vulnerability patches in vulnerability databases, and the existing manual or heuristic-based approaches for patch identification are either too expensive or too specific to be applied to all open source vulnerabilities.
 
