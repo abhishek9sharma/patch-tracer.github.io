@@ -16,34 +16,30 @@ The paper has been submitted to ICSE 2022.
 
 This page lists the supplementary materiales that are omitted from the paper due to space limitations, provides ... of our study RQ..., and releases the data and code for tool.
 
-### Markdown
+### Empirical Study
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Breadth Dataset:**  To broadly quantify missing patches in vulnerability databases and inconsistent patches across vulnerability databases, we built a breadth dataset of OSS vulnerabilities by acquiring all open source vulnerabilities from $DB_A$ and $DB_B$ as of April 7, 2020. We obtained 8,630 and 5,858 CVEs from $DB_A$ and $DB_B$​ respectively. The data can be found [here (toadd)](...). 
 
-```markdown
-Syntax highlighted code block
+**Depth Dataset:** To accurately characterize patch types, mapping cardinalities and patch accuracy, we built a depth dataset of OSS vulnerabilities. 
 
-# Header 1
-## Header 2
-### Header 3
+For each CVE, two of the authors separately found its patches by analyzing patches reported by the three databases, looking into CVE description and references in NVD, and searching GitHub repositories and Internet resources. Then, they exchanged sources and ways to find patches. After that, another authors participated in. They investigated inconsistent cases together, and revisited all CVEs for several rounds until reaching a consensus. Finally, they successfully found patches for 1,295 CVEs. The data can be found [here (toadd)](...). 
 
-- Bulleted
-- List
+### PatFinder Code
 
-1. Numbered
-2. List
+You can download source code from [here (toadd)]( .. ).
 
-**Bold** and _Italic_ and `Code` text
+### Evaluation
 
-[Link](url) and ![Image](src)
-```
+**User Study:** To evaluate the usefulness of PatFinder in practice, we conducted a user study with 10 participants to find patches of 10 CVEs. The 10 tasks can be found [here (toadd)](...). 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PatFinderTool/PatFinderTool.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!-- ### Jekyll Themes   -->
+
+<!-- Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PatFinderTool/PatFinderTool.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.   -->
+
+<!-- ### Support or Contact   -->
+
+<!-- Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.   -->
