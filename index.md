@@ -18,11 +18,11 @@ This page lists the supplementary materiales that are omitted from the paper due
 
 ### Empirical Study
 
-**Breadth Dataset:**  To broadly quantify missing patches in vulnerability databases and inconsistent patches across vulnerability databases, we built a breadth dataset of OSS vulnerabilities by acquiring all open source vulnerabilities from $DB_A$ and $DB_B$ as of April 7, 2020. We obtained 8,630 and 5,858 CVEs from $DB_A$ and $DB_B$​ respectively. The data can be found [here (toadd)](...). 
+**Breadth Dataset:**  We built a breadth dataset of OSS vulnerabilities by acquiring all open source vulnerabilities from $DB_A$​ and $DB_B$​ as of April 7, 2020. We obtained 8,630 and 5,858 CVEs from $DB_A$​ and $DB_B$​​ respectively. The data can be found [here (toadd)](...). 
 
-**Depth Dataset:** To accurately characterize patch types, mapping cardinalities and patch accuracy, we built a depth dataset of OSS vulnerabilities. 
+**Depth Dataset:**  For each CVE, two of the authors separately found its patches by analyzing patches reported by the three databases, looking into CVE description and references in NVD, and searching GitHub repositories and Internet resources. Then, they exchanged sources and ways to find patches. After that, another authors participated in. They investigated inconsistent cases together, and revisited all CVEs for several rounds until reaching a consensus. Finally, they successfully found patches for 1,295 CVEs. 
 
-For each CVE, two of the authors separately found its patches by analyzing patches reported by the three databases, looking into CVE description and references in NVD, and searching GitHub repositories and Internet resources. Then, they exchanged sources and ways to find patches. After that, another authors participated in. They investigated inconsistent cases together, and revisited all CVEs for several rounds until reaching a consensus. Finally, they successfully found patches for 1,295 CVEs. The data can be found [here (toadd)](...). 
+We release the dataset [here (toadd)](...). And We hope it can be a basis for possible follow-up research, which requires accurate mapping between CVEs and patches. Although we have tried best to ensure its accuracy, mistakes still be possible. If you find anything wrong, please kindly report an issue. So many thanks for your effort!  Let's maintain it together 😄. 
 
 ### PatFinder Code
 
