@@ -4,17 +4,17 @@
 
 <!-- Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files. -->
 
-## Finding Patches for Open Source Software Vulnerabilities
+## Tracer: Finding Patches for Open Source Software Vulnerabilities
+The paper has been submitted to ICSE 2022.
 
+This page lists the supplementary materiales that are omitted from the paper due to space limitations, provides ... of our study RQ..., and releases the data and code for the tool.
+
+### PatFinder
 Open source software (OSS) vulnerability management has been becoming an open problem. Vulnerability databases provide valuable data that are needed to address open source vulnerabilities. Recently, there arises a growing concern about the information quality of vulnerability databases. In particular, it is unclear how is the quality of vulnerability patches in vulnerability databases, and the existing manual or heuristic-based approaches for patch identification are either too expensive or too specific to be applied to all open source vulnerabilities.
 
 To address these problems, we first conduct an empirical study to understand the quality and characteristics of patches for OSS vulnerabilities in two state-of-the-art vulnerability databases, i.e., Veracode's and Snyk's databases. Our study is designed to cover five dimensions, i.e., patch coverage, patch consistency, patch type, mapping cardinality between vulnerabilities and their patches, and patch accuracy. Then, inspired by our study, we propose the first automated approach, named **PatFinder**, to **find patches for an OSS vulnerability from multiple sources**. Our key idea is that patch links will be frequently referenced during the reporting, discussion, and resolution of an OSS vulnerability.
 
 Our extensive experiments indicated that PatFinder could find patches for up to 273.8% more CVEs than existing heuristic-based approaches while having a significantly higher F1-score by up to 116.8%. Compared to state-of-the-art vulnerability databases, PatFinder could achieve a 15.5% to 18.4% higher recall, but sacrifice up to 12.0% CVEs' patches and 6.3% lower precision. Our evaluation also demonstrated the generality and the usefulness of PatFinder in practice with a user study.
-
-The paper has been submitted to ICSE 2022.
-
-This page lists the supplementary materiales that are omitted from the paper due to space limitations, provides ... of our study RQ..., and releases the data and code for tool.
 
 ### Empirical Study
 
