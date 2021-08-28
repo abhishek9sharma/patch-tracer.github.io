@@ -18,11 +18,11 @@ This page lists the supplementary materiales that are omitted from the paper due
 
 ### Empirical Study
 
-**Breadth Dataset:**  We built a breadth dataset of OSS vulnerabilities by acquiring all open source vulnerabilities from $DB_A$​ and $DB_B$​ as of April 7, 2020. We obtained 8,630 and 5,858 CVEs from $DB_A$​ and $DB_B$​​ respectively. The data can be found [here (toadd)](...). 
+**Breadth Dataset:**  We built a breadth dataset of OSS vulnerabilities by acquiring all open source vulnerabilities from $DB_A$​ and $DB_B$​ as of April 7, 2020. We obtained 8,630 and 5,858 CVEs from $DB_A$​ and $DB_B$​​ respectively. The data can be found [here](https://github.com/PatFinderTool/PatFinderTool.github.io/tree/main/Experimental%20Data/Empirical%20Study). 
 
 **Depth Dataset:**  For each CVE, two of the authors separately found its patches by analyzing patches reported by the three databases, looking into CVE description and references in NVD, and searching GitHub repositories and Internet resources. Then, they exchanged sources and ways to find patches. After that, another authors participated in. They investigated inconsistent cases together, and revisited all CVEs for several rounds until reaching a consensus. Finally, they successfully found patches for 1,295 CVEs. 
 
-We release the dataset [here (toadd)](...). And We hope it can be a basis for possible follow-up research, which requires accurate mapping between CVEs and patches. Although we have tried best to ensure its accuracy, mistakes still be possible. If you find anything wrong, please kindly report an issue. So many thanks for your effort!  Let's maintain it together 😄. 
+We release the dataset [here](https://github.com/PatFinderTool/PatFinderTool.github.io/blob/main/Experimental%20Data/Empirical%20Study/depth_dataset.csv). And We hope it can be a basis for possible follow-up research, which requires accurate mapping between CVEs and patches. Although we have tried best to ensure its accuracy, mistakes still be possible. If you find anything wrong, please kindly report an issue. So many thanks for your effort!  Let's maintain it together 😄. 
 
 ### PatFinder Code
 
@@ -30,7 +30,9 @@ You can download source code from [here (toadd)]( .. ).
 
 ### Evaluation
 
-**User Study:** To evaluate the usefulness of PatFinder in practice, we conducted a user study with 10 participants to find patches of 10 CVEs. The 10 tasks can be found [here (toadd)](...). 
+**Generality Evaluation:** To evaluate the generality of PatFinder to a wider range of OSS vulnerabilities, We construct two more datasets [here](https://github.com/PatFinderTool/PatFinderTool.github.io/tree/main/Experimental%20Data/Evaluation/Generality%20Evaluation%20datasets). 
+
+**Usefulness Evaluation (User Study):** To evaluate the usefulness of PatFinder in practice, we conducted a user study with 10 participants to find patches of 10 CVEs. The 10 tasks can be found [here](https://github.com/PatFinderTool/PatFinderTool.github.io/tree/main/Experimental%20Data/Evaluation/Usefulness%20Evaluation%20tasks). 
 
 
 
