@@ -12,13 +12,13 @@ This page lists the supplementary materiales that are omitted from the paper due
 ### Tables of Contents
 
 * [PatFinder](#PatFinder)
-* [Empirical Study](#Empirical Study)
-  * [Breadth Dataset](#Breadth Dataset)
-  * [Depth Dataset](#Depth Dataset)
-* [PatFinder Code](#PatFinder Code)
+* [Empirical Study](#Empirical-Study)
+  * [Breadth Dataset](#Breadth-Dataset)
+  * [Depth Dataset](#Depth-Dataset)
+* [PatFinder Code](#PatFinder-Code)
 * [Evaluation](#Evaluation)
-  * [Generality Evaluation](#Generality Evaluation)
-  * [Usefulness Evaluation](#Usefulness Evaluation)
+  * [Generality Evaluation](#Generality-Evaluation)
+  * [Usefulness Evaluation](#Usefulness-Evaluation)
 
 ### PatFinder
 Open source software (OSS) vulnerability management has been becoming an open problem. Vulnerability databases provide valuable data that are needed to address open source vulnerabilities. Recently, there arises a growing concern about the information quality of vulnerability databases. In particular, it is unclear how is the quality of vulnerability patches in vulnerability databases, and the existing manual or heuristic-based approaches for patch identification are either too expensive or too specific to be applied to all open source vulnerabilities.
