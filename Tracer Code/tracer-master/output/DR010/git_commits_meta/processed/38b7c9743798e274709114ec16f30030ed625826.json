@@ -1,0 +1,16 @@
+{
+    "commit_ID": "38b7c9743798e274709114ec16f30030ed625826",
+    "parent_ID": [
+        "b73a38f8fce35945f47f8ae712067b7f4109c1be",
+        "f5841424b7ae79ff93e0ac39dbd56837ea916823"
+    ],
+    "38b7c9743798e274709114ec16f30030ed625826": {
+        "pom.xml": {
+            "filename": "pom.xml",
+            "diff": "@@ -148,7 +148,7 @@\n         <version.com.jcraft.jzlib>1.1.1</version.com.jcraft.jzlib>\n         <version.commons-io>2.5</version.commons-io>\n         <version.commons-lang>2.6</version.commons-lang>\n-        <version.io.undertow>2.0.25.Final</version.io.undertow>\n+        <version.io.undertow>2.0.26.Final</version.io.undertow>\n         <version.javax.inject.javax.inject>1</version.javax.inject.javax.inject>\n         <version.javax.json.javax-json-api>1.1.2</version.javax.json.javax-json-api>\n         <version.junit>4.12</version.junit>",
+            "function": null,
+            "fullpath": "wildfly-core/contents/pom.xml",
+            "status": "modified"
+        }
+    }
+}

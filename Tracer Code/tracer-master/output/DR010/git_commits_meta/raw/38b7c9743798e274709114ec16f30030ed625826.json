@@ -1,0 +1,103 @@
+{
+    "sha": "38b7c9743798e274709114ec16f30030ed625826",
+    "node_id": "MDY6Q29tbWl0MjEzOTQ5NTQ6MzhiN2M5NzQzNzk4ZTI3NDcwOTExNGVjMTZmMzAwMzBlZDYyNTgyNg==",
+    "commit": {
+        "author": {
+            "name": "Brian Stansberry",
+            "email": "brian.stansberry@redhat.com",
+            "date": "2019-08-31T13:49:18Z"
+        },
+        "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2019-08-31T13:49:18Z"
+        },
+        "message": "Merge pull request #3938 from fl4via/WFCORE-4641\n\n[WFCORE-4641] Upgrade Undertow to 2.0.26.Final",
+        "tree": {
+            "sha": "524b4b83f4a2af9f0c53a18b9e5b182dafe6a289",
+            "url": "https://api.github.com/repos/wildfly/wildfly-core/git/trees/524b4b83f4a2af9f0c53a18b9e5b182dafe6a289"
+        },
+        "url": "https://api.github.com/repos/wildfly/wildfly-core/git/commits/38b7c9743798e274709114ec16f30030ed625826",
+        "comment_count": 0,
+        "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdanreCRBK7hj4Ov3rIwAAdHIIAD2WMbnY/0E4OLfTsNYCqTqk\neWm6ye6v97jMmDX4bjAjdCz54hJWgoHjv+gwYDJdI09VtXm+M8LN+Fz94k9j6jX6\netUWrukKQzSZ5Lspg0nUmTH17HHIW0sj8acO8Dov7C32eMeCOOlxXiPeA47m9oH0\nqyQrL5zXI+dlixQE0KQQcAtNBxX/UaGGKrlXBC3/rU6lZng8H0MQiq268apwdpVz\nchRNia5yTQH0RaXNwnT+HVhprrYh4uy6Q8MvMV9hP6FeGrlqwv/1qbfcwOIfO5m3\nVfLdSPJ65lnsxH6sIJP9wFVuZuXE3VgQKehs8YR5YSYLso67VLY3qTxssHhCYUE=\n=gOYL\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 524b4b83f4a2af9f0c53a18b9e5b182dafe6a289\nparent b73a38f8fce35945f47f8ae712067b7f4109c1be\nparent f5841424b7ae79ff93e0ac39dbd56837ea916823\nauthor Brian Stansberry <brian.stansberry@redhat.com> 1567259358 -0500\ncommitter GitHub <noreply@github.com> 1567259358 -0500\n\nMerge pull request #3938 from fl4via/WFCORE-4641\n\n[WFCORE-4641] Upgrade Undertow to 2.0.26.Final"
+        }
+    },
+    "url": "https://api.github.com/repos/wildfly/wildfly-core/commits/38b7c9743798e274709114ec16f30030ed625826",
+    "html_url": "https://github.com/wildfly/wildfly-core/commit/38b7c9743798e274709114ec16f30030ed625826",
+    "comments_url": "https://api.github.com/repos/wildfly/wildfly-core/commits/38b7c9743798e274709114ec16f30030ed625826/comments",
+    "author": {
+        "login": "bstansberry",
+        "id": 299242,
+        "node_id": "MDQ6VXNlcjI5OTI0Mg==",
+        "avatar_url": "https://avatars1.githubusercontent.com/u/299242?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/bstansberry",
+        "html_url": "https://github.com/bstansberry",
+        "followers_url": "https://api.github.com/users/bstansberry/followers",
+        "following_url": "https://api.github.com/users/bstansberry/following{/other_user}",
+        "gists_url": "https://api.github.com/users/bstansberry/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/bstansberry/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/bstansberry/subscriptions",
+        "organizations_url": "https://api.github.com/users/bstansberry/orgs",
+        "repos_url": "https://api.github.com/users/bstansberry/repos",
+        "events_url": "https://api.github.com/users/bstansberry/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/bstansberry/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "parents": [
+        {
+            "sha": "b73a38f8fce35945f47f8ae712067b7f4109c1be",
+            "url": "https://api.github.com/repos/wildfly/wildfly-core/commits/b73a38f8fce35945f47f8ae712067b7f4109c1be",
+            "html_url": "https://github.com/wildfly/wildfly-core/commit/b73a38f8fce35945f47f8ae712067b7f4109c1be"
+        },
+        {
+            "sha": "f5841424b7ae79ff93e0ac39dbd56837ea916823",
+            "url": "https://api.github.com/repos/wildfly/wildfly-core/commits/f5841424b7ae79ff93e0ac39dbd56837ea916823",
+            "html_url": "https://github.com/wildfly/wildfly-core/commit/f5841424b7ae79ff93e0ac39dbd56837ea916823"
+        }
+    ],
+    "stats": {
+        "total": 2,
+        "additions": 1,
+        "deletions": 1
+    },
+    "files": [
+        {
+            "sha": "426949b5fbc2896f613369796f4ae9be5b33ae28",
+            "filename": "pom.xml",
+            "status": "modified",
+            "additions": 1,
+            "deletions": 1,
+            "changes": 2,
+            "blob_url": "https://github.com/wildfly/wildfly-core/blob/38b7c9743798e274709114ec16f30030ed625826/pom.xml",
+            "raw_url": "https://github.com/wildfly/wildfly-core/raw/38b7c9743798e274709114ec16f30030ed625826/pom.xml",
+            "contents_url": "https://api.github.com/repos/wildfly/wildfly-core/contents/pom.xml?ref=38b7c9743798e274709114ec16f30030ed625826",
+            "patch": "@@ -148,7 +148,7 @@\n         <version.com.jcraft.jzlib>1.1.1</version.com.jcraft.jzlib>\n         <version.commons-io>2.5</version.commons-io>\n         <version.commons-lang>2.6</version.commons-lang>\n-        <version.io.undertow>2.0.25.Final</version.io.undertow>\n+        <version.io.undertow>2.0.26.Final</version.io.undertow>\n         <version.javax.inject.javax.inject>1</version.javax.inject.javax.inject>\n         <version.javax.json.javax-json-api>1.1.2</version.javax.json.javax-json-api>\n         <version.junit>4.12</version.junit>"
+        }
+    ]
+}
