@@ -44,8 +44,8 @@ $ pip install -r requirements.txt
 
    * CVE-2017-16016
 
-   ```
-   $ python tool_in_formal.py CVE-2017-16016 './CVE-2017-16016_network.pdf'
+   ```cmd
+   $ python tool_main.py CVE-2017-16016 ./CVE-2017-16016_network.pdf
    ```
 
    * output
