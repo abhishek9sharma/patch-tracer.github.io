@@ -24,10 +24,9 @@
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
       </div>
-      {% if site.view_project %}
-          <a href="{{ site.github.repository_url }}" class="button"><small>(field) View project on</small> GitHub</a>
+      {% if site.github.is_project_page or site.view_project %}
+          <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
       {% endif %}
-      <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
     </header>
 
     <div id="content-wrapper">
