@@ -3,7 +3,6 @@
 """
 Created on 2020-04-04 13:57  
 
-@author: congyingxu
 
 CVE-2014-2925 Pass, to check,  len(tr[class]) == 0  !
 CVE-2011-0395 Pass, to check,  len(tr[class]) == 0  !
