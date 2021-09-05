@@ -2,19 +2,13 @@
 layout: default
 ---
 
+# Welcome to Tracer's Site！
 
-# Abstract
-Open source software (OSS) vulnerability management has become an open problem. Vulnerability databases provide valuable data that is needed to address OSS vulnerabilities. However, there arises a growing concern about the information quality of vulnerability databases. In particular, it is unclear how the quality of patches in existing vulnerability databases is. Further, existing manual or heuristic-based approaches for patch identification are either too expensive or too specific to be applied to all OSS vulnerabilities.
-
-To address these problems, we **first** conduct an empirical study to understand the quality and characteristics of patches for OSS vulnerabilities in two state-of-the-art vulnerability databases. Our study is designed to cover five dimensions, i.e., the **coverage, consistency, type, cardinality and accuracy** of patches. **Then**, inspired by our study, we propose the first automated approach, named **Tracer, to find patches for an OSS vulnerability from multiple sources**. Our key idea is that patch commits will be frequently referenced during the reporting, discussion and resolution of an OSS vulnerability.
-
-Our extensive evaluation has indicated that **i)** Tracer finds patches for up to 273.8% more CVEs than **existing heuristic-based approaches** while achieving a significantly higher F1-score by up to 116.8%; and **ii)** Tracer achieves a higher recall by up to 18.4% than **state-of-the-art vulnerability databases**, but sacrifices up to 12.0% fewer CVEs (whose patches are not found) and 6.4% lower precision. Our evaluation has also demonstrated the **generality and usefulness** of Tracer.
-
-The paper has been submitted to ICSE 2022. This page lists the supplementary materials that are omitted from the paper due to space limitations, (i.e., dataset, accuracy, sensitivity, and application analysis), and releases the experimental data and Tracer's source code.
+The paper "Finding Patches for Open Source Software Vulnerabilities" has been submitted to ICSE 2022. This page lists the supplementary materials that are omitted from the paper due to space limitations, (i.e., dataset, accuracy, sensitivity, and application analysis), and releases the experimental data and Tracer's source code.
 
 **Table of Contents**
 
-- [Abstract ](#abstract)
+- [Tracer](#tracer)
 - [Source Code](#source-code)
 - [Experimental Data](#experimental-data)
   + [Empirical Study](#empirical-study)
@@ -31,6 +25,16 @@ The paper has been submitted to ICSE 2022. This page lists the supplementary mat
 
 
 
+# Tracer
+
+Open source software (OSS) vulnerability management has become an open problem. Vulnerability databases provide valuable data that is needed to address OSS vulnerabilities. However, there arises a growing concern about the information quality of vulnerability databases. In particular, it is unclear how the quality of patches in existing vulnerability databases is. Further, existing manual or heuristic-based approaches for patch identification are either too expensive or too specific to be applied to all OSS vulnerabilities.
+
+To address these problems, we **first** conduct an empirical study to understand the quality and characteristics of patches for OSS vulnerabilities in two state-of-the-art vulnerability databases. Our study is designed to cover five dimensions, i.e., the **coverage, consistency, type, cardinality and accuracy** of patches. **Then**, inspired by our study, we propose the first automated approach, named **Tracer, to find patches for an OSS vulnerability from multiple sources**. Our key idea is that patch commits will be frequently referenced during the reporting, discussion and resolution of an OSS vulnerability.
+
+Our extensive evaluation has indicated that **i)** Tracer finds patches for up to 273.8% more CVEs than **existing heuristic-based approaches** while achieving a significantly higher F1-score by up to 116.8%; and **ii)** Tracer achieves a higher recall by up to 18.4% than **state-of-the-art vulnerability databases**, but sacrifices up to 12.0% fewer CVEs (whose patches are not found) and 6.4% lower precision. Our evaluation has also demonstrated the **generality and usefulness** of Tracer.
+
+
+
 # Source Code
 
 You can download the source code of Tracer from [here](https://github.com/patch-tracer/patch-tracer.github.io/tree/main/Tracer%20Code).
@@ -42,8 +46,6 @@ You can download the source code of Tracer from [here](https://github.com/patch-
 ### Empirical Study
 ##### Breadth Dataset
 We built a breadth dataset of OSS vulnerabilities by acquiring all open source vulnerabilities from `$DB_A$`​ and `$DB_B$`​ as of April 7, 2020. We obtained 8,630 and 5,858 CVEs from `$DB_A$`​ and `$DB_B$`​​ respectively. 
-
-
 
 #####  Depth Dataset
 
