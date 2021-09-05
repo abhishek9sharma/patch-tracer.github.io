@@ -2,25 +2,6 @@
 layout: default
 ---
 
-> The paper has been submitted to ICSE 2022. This page lists the supplementary materials that are omitted from the paper due to space limitations, (i.e., dataset, accuracy, sensitivity, and application analysis), and releases the experimental data and Tracer's source code.
-
-**Table of Contents**
-
-- [Abstract ](#abstract)
-- [Source Code](#source-code)
-- [Experimental Data](#experimental-data)
-    + [Empirical Study](#empirical-study)
-        * [Breadth Dataset](#breadth-dataset)
-        * [Depth Dataset](#depth-dataset)
-    + [Evaluation](#evaluation)
-        * [Generality Evaluation](#generality-evaluation)
-        * [Usefulness Evaluation](#usefulness-evaluation)
-- [Supplementary Materials](#supplementary-materials)
-    + [Dataset Analysis](#dataset-analysis)
-    + [Accuracy Analysis](#accuracy-analysis)
-    + [Sensitivity Analysis](#sensitivity-analysis)
-    + [Application Analysis](#application-analysis)
-
 
 # Abstract
 Open source software (OSS) vulnerability management has become an open problem. Vulnerability databases provide valuable data that is needed to address OSS vulnerabilities. However, there arises a growing concern about the information quality of vulnerability databases. In particular, it is unclear how the quality of patches in existing vulnerability databases is. Further, existing manual or heuristic-based approaches for patch identification are either too expensive or too specific to be applied to all OSS vulnerabilities.
@@ -29,7 +10,29 @@ To address these problems, we **first** conduct an empirical study to understand
 
 Our extensive evaluation has indicated that **i)** Tracer finds patches for up to 273.8% more CVEs than **existing heuristic-based approaches** while achieving a significantly higher F1-score by up to 116.8%; and **ii)** Tracer achieves a higher recall by up to 18.4% than **state-of-the-art vulnerability databases**, but sacrifices up to 12.0% fewer CVEs (whose patches are not found) and 6.4% lower precision. Our evaluation has also demonstrated the **generality and usefulness** of Tracer.
 
+The paper has been submitted to ICSE 2022. This page lists the supplementary materials that are omitted from the paper due to space limitations, (i.e., dataset, accuracy, sensitivity, and application analysis), and releases the experimental data and Tracer's source code.
+
+**Table of Contents**
+
+- [Abstract ](#abstract)
+- [Source Code](#source-code)
+- [Experimental Data](#experimental-data)
+  + [Empirical Study](#empirical-study)
+    * [Breadth Dataset](#breadth-dataset)
+    * [Depth Dataset](#depth-dataset)
+  + [Evaluation](#evaluation)
+    * [Generality Evaluation](#generality-evaluation)
+    * [Usefulness Evaluation](#usefulness-evaluation)
+- [Supplementary Materials](#supplementary-materials)
+  + [Dataset Analysis](#dataset-analysis)
+  + [Accuracy Analysis](#accuracy-analysis)
+  + [Sensitivity Analysis](#sensitivity-analysis)
+  + [Application Analysis](#application-analysis)
+
+
+
 # Source Code
+
 You can download the source code of Tracer from [here](https://github.com/patch-tracer/patch-tracer.github.io/tree/main/Tracer%20Code).
 
 
