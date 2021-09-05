@@ -3,9 +3,5 @@ title: Patch Tracer
 description: Finding Patches for Open Source Software Vulnerabilities
 
 show_downloads: true
-github.zip_url: https://github.com/patch-tracer/patch-tracer.github.io
-github.tar_url: https://github.com/patch-tracer/patch-tracer.github.io
-
-github.is_project_page: false
+github.is_project_page: true
 github.repository_url: https://github.com/patch-tracer/patch-tracer.github.io
-github.is_user_page: false
