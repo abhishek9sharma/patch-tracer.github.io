@@ -1,7 +1,6 @@
 theme: jekyll-theme-architect
 title: Patch Tracer
-description: Finding Patches for Open Source Software Vulnerabilities
+description: Finding Patches for OSS Vulnerabilities
 
 show_downloads: true
-github.is_project_page: true
-github.repository_url: https://github.com/patch-tracer/patch-tracer.github.io
+view_project: true
