@@ -5,7 +5,9 @@ layout: default
 # Welcome to Tracer's Site！
 
 The paper "Finding Patches for Open Source Software Vulnerabilities" has been submitted to ICSE2022. This page lists the supplementary materials that are omitted from the paper due to space limitations, (i.e., dataset, accuracy, sensitivity, and application analysis), and releases the experimental data and Tracer's source code.
+
 **Table of Contents**
+
 - [Tracer](#tracer)
 - [Source Code](#source-code)
 - [Experimental Data](#experimental-data)
@@ -17,6 +19,7 @@ The paper "Finding Patches for Open Source Software Vulnerabilities" has been su
   + [Sensitivity Analysis](#sensitivity-analysis)
   + [Application Analysis](#application-analysis)
   
+---
 ---
 # Tracer
 
@@ -37,15 +40,15 @@ You can download the source code of Tracer from [here](https://github.com/patch-
 # Experimental Data
 
 ### Empirical Study
-Breadth Dataset. We built a breadth dataset of OSS vulnerabilities by acquiring all open source vulnerabilities from `$DB_A$`​ and `$DB_B$`​ as of April 7, 2020. We obtained 8,630 and 5,858 CVEs from `$DB_A$`​ and `$DB_B$`​​ respectively. 
+**Breadth Dataset.** We built a breadth dataset of OSS vulnerabilities by acquiring all open source vulnerabilities from `$DB_A$`​ and `$DB_B$`​ as of April 7, 2020. We obtained 8,630 and 5,858 CVEs from `$DB_A$`​ and `$DB_B$`​​ respectively. 
 
-Depth Dataset. For each CVE, two of the authors separately found its patches by analyzing patches reported by the three databases, looking into CVE description and references in NVD, and searching GitHub repositories and Internet resources. Then, they exchanged sources and ways to find patches. After that, another author participated in. They investigated inconsistent cases together, and revisited all CVEs for several rounds until reaching a consensus. Finally, they successfully found patches for 1,295 CVEs. 
+**Depth Dataset.** For each CVE, two of the authors separately found its patches by analyzing patches reported by the three databases, looking into CVE description and references in NVD, and searching GitHub repositories and Internet resources. Then, they exchanged sources and ways to find patches. After that, another author participated in. They investigated inconsistent cases together, and revisited all CVEs for several rounds until reaching a consensus. Finally, they successfully found patches for 1,295 CVEs. 
 
 Both Breadth Dataset and Depth Dataset can be found [here](https://github.com/patch-tracer/patch-tracer.github.io/tree/main/Experimental%20Data/Empirical%20Study). 
 
 ### Evaluation
-Generality Evaluation. To evaluate the generality of Tracer to a wider range of OSS vulnerabilities, We construct two more datasets [here](https://github.com/patch-tracer/patch-tracer.github.io/tree/main/Experimental%20Data/Evaluation/Generality%20Evaluation%20datasets). 
-Usefulness Evaluation. To evaluate the usefulness of Tracer in practice, we conducted a user study with 10 participants to find patches of 10 CVEs. The 10 tasks can be found [here](https://github.com/patch-tracer/patch-tracer.github.io/tree/main/Experimental%20Data/Evaluation/Usefulness%20Evaluation%20tasks). 
+**Generality Evaluation.** To evaluate the generality of Tracer to a wider range of OSS vulnerabilities, We construct two more datasets [here](https://github.com/patch-tracer/patch-tracer.github.io/tree/main/Experimental%20Data/Evaluation/Generality%20Evaluation%20datasets). 
+**Usefulness Evaluation.** To evaluate the usefulness of Tracer in practice, we conducted a user study with 10 participants to find patches of 10 CVEs. The 10 tasks can be found [here](https://github.com/patch-tracer/patch-tracer.github.io/tree/main/Experimental%20Data/Evaluation/Usefulness%20Evaluation%20tasks). 
 
 
 
