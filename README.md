@@ -1,8 +1,4 @@
----
-layout: default
----
-
-# Welcome to Tracer's Site！
+# Welcome to Tracer's Repository！
 
 The paper "Finding Patches for Open Source Software Vulnerabilities" has been submitted to ICSE2022. This page lists the supplementary materials that are omitted from the paper due to space limitations, (i.e., dataset, accuracy, sensitivity, and application analysis), and releases the experimental data and Tracer's source code.
 
@@ -82,6 +78,7 @@ Tracer is configurable to meet different accuracy requirements of applications. 
 For applications that need **high patch recall**, Tracer can be configured to not follow the patch selection step in Tracer but select all patches in our reference network. As shown by our ablation analysis in the submitted paper, this is actually the variant $v^1_2$ , and achieves the highest recall of 0.940, 8.8% higher than that of the original Tracer. 
 
 These results demonstrate that the two variants of Tracer can meet the practical requirements of high precision and high recall.
+
 
 
 

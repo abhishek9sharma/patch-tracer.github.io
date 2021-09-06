@@ -1,3 +1,7 @@
+# README
+
+This folder contains the breadth dataset and depth dataset in our empirical study.
+
 ##### Breadth Dataset
 
 We built a breadth dataset of OSS vulnerabilities by acquiring all open source vulnerabilities from $DB_A$​ and $DB_B$​ as of April 7, 2020. We obtained 8,630 and 5,858 CVEs from $DB_A$​ and $DB_B$​​ respectively. 
@@ -10,4 +14,7 @@ For each CVE, two of the authors separately found its patches by analyzing patch
 
 ##### Update
 
-We release the datasets here. And We hope it can be a basis for possible follow-up research, which requires accurate mapping between CVEs and patches. Although we have tried best to ensure its accuracy, mistakes still be possible. If you find anything wrong, please kindly report an issue. So many thanks for your effort!  Let's maintain it together 😄. 
+We have made the datasets publicly available. And We hope it can be a basis for possible follow-up researches, which require accurate mapping between CVEs and patches.
+
+If you have any questions or issues, please feel free to report an issue. We will continue to maintain these datasets. So many thanks for your feedback😄. 
+
