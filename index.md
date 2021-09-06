@@ -57,13 +57,13 @@ Both Breadth Dataset and Depth Dataset can be found [here](https://github.com/pa
 
 We analyzed the 1,295 CVEs in our depth dataset with respect to years and programming languages. We determined the programming language of a CVE by analyzing the changed source files in patches. As shown in Fig.1a, the number of CVEs increases every year, which is consistent with [Snyk’s report](https://snyk.io/wp-content/uploads/sooss_report_v2.pdf). As reported in Fig. 1b, these CVEs mainly cover seven programming languages, which demonstrates relatively good coverage of ecosystems. Therefore, we believe that our depth dataset is representative of OSS vulnerabilities.
 
-<img src="images/dataset analysis.png" alt="Figure 1: Our Depth Dataset w.r.t. Programming Languages" style="zoom:130%;" />
+<img src="./images/dataset analysis.png" alt="Figure 1: Our Depth Dataset w.r.t. Programming Languages" style="zoom:130%;" />
 
 ## Accuracy Analysis
 
 We analyzed the intersection between the patches identified by Tracer (denoted as $P_{Tracer}$) and our manually identified patches (denoted as $P_{GT}$ ) for each CVE in our depth dataset. In particular, we classify intersection relationships into six categories, which are used as another indicator of patch accuracy. The results are reported in Table 1, where the first column lists the six categories, the second column shows the number of CVEs belonging to each category, and the last column gives the total number of patches found by Tracer. 
 
-<img src="images/accuracy analysis.png" alt="Our Depth Dataset w.r.t. Programming Languages" style="zoom:12%;" />
+<img src="./images/accuracy analysis.png" alt="Our Depth Dataset w.r.t. Programming Languages" style="zoom:12%;" />
 
 It can be observed that Tracer can find patches accurately and completely for 773 (59.7%) CVEs (i.e., $P_{Tracer} = P_{GT}$), with an average of 1.9 found patches for each CVE. Tracer can find patches completely but include some false positives for 128 (9.9%) CVEs (i.e., $P_{Tracer} ⊃ P_{GT}$). In that sense, 901 (69.6%) CVEs’ patches are completely found by Tracer. Besides, Tracer can find patches accurately but have some false negatives for 139 (10.7%) CVEs (i.e., $P_{Tracer} ⊂ P_{GT}$). Tracer incurs both false positives and false negatives for 27 (2.1%) CVEs (i.e., $P_{Tracer} ∩ P_{GT} \not= ∅$), while the patches found for 73 (5.6%) CVEs by Tracer are all false positives (i.e., $P_{Tracer} ∩ P_{GT} = ∅$). Notice that we analyze the reasons for false positives and false negatives in the submitted paper. These results demonstrate the capability of Tracer in finding patches accurately and completely.
 
@@ -71,7 +71,7 @@ It can be observed that Tracer can find patches accurately and completely for 77
 
 Tracer has two configurable parameters, i.e., the network depth limit in the first step of Tracer and the commit span in the third step. The default configuration is 5 and 30, which is used in the evaluation for **RQ6, RQ7, RQ8 and RQ9**. To evaluate the sensitivity of Tracer to the two parameters, we reconfigured one parameter and fix the other, and reran Tracer against our depth dataset. Specifically, the network depth limit was configured from 3 to 6 by a step of 1, and the commit span was configured from 0 to 60 by a step of 10. 
 
-![Figure 2: Our Depth Dataset w.r.t. Programming Languages](images/sensitivity analysis.png)
+![Figure 2: Our Depth Dataset w.r.t. Programming Languages](./images/sensitivity analysis.png)
 
 Fig. 2a and 2b show the impact of the two parameters on the accuracy of Tracer, where x-axis denotes the value of the parameter, and y-axis denotes the accuracy of Tracer. Overall, as the network depth limit increases, more potential patches are included in our reference network. The number of CVEs that Tracer finds no patch and precision decrease, and recall and F1-score first increase and then decrease. Hence, we believe 5 is a good value for the network depth limit. As the commit span increases, a wider scope of commits are searched. Precision decreases, recall increases, and F1-score first increases and then decreases. Notice that the number of CVEs Tracer finds no patch will not change and thus is not presented in Fig. 2b. Hence, we believe 30 is a good value for the commit span. These results indicate that the sensitivity of the accuracy of Tracer to the two configurable parameters is acceptable.
 
