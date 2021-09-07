@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Finding Patches for Open Source Software Vulnerabilities
-description: This paper has been submitted to ICSE 2022
+
+show_downloads: true
+view_on_github: true
