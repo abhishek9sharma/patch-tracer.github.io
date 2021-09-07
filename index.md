@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Welcome to Tracer's Site！
 
 The paper "Finding Patches for Open Source Software Vulnerabilities" has been submitted to ICSE2022. This page lists the supplementary materials that are omitted from the paper due to space limitations, (i.e., dataset, accuracy, sensitivity, and application analysis), and releases the experimental data and Tracer's source code.
@@ -24,9 +20,9 @@ The paper "Finding Patches for Open Source Software Vulnerabilities" has been su
 
 Open source software (OSS) vulnerability management has become an open problem. Vulnerability databases provide valuable data that is needed to address OSS vulnerabilities. However, there arises a growing concern about the information quality of vulnerability databases. In particular, it is unclear how the quality of patches in existing vulnerability databases is. Further, existing manual or heuristic-based approaches for patch identification are either too expensive or too specific to be applied to all OSS vulnerabilities.
 
-To address these problems, we **first** conduct an empirical study to understand the quality and characteristics of patches for OSS vulnerabilities in two state-of-the-art vulnerability databases. Our study is designed to cover five dimensions, i.e., the **coverage, consistency, type, cardinality and accuracy** of patches. **Then**, inspired by our study, we propose the first automated approach, named **Tracer, to find patches for an OSS vulnerability from multiple sources**. Our key idea is that patch commits will be frequently referenced during the reporting, discussion and resolution of an OSS vulnerability.
+To address these problems, we first conduct an empirical study to understand the quality and characteristics of patches for OSS vulnerabilities in two state-of-the-art vulnerability databases. Our study is designed to cover five dimensions, i.e., the coverage, consistency, type, cardinality and accuracy of patches. Then, inspired by our study, we propose the first automated approach, named Tracer, to find patches for an OSS vulnerability from multiple sources. Our key idea is that patch commits will be frequently referenced during the reporting, discussion and resolution of an OSS vulnerability.
 
-Our extensive evaluation has indicated that **i)** Tracer finds patches for up to 273.8% more CVEs than **existing heuristic-based approaches** while achieving a significantly higher F1-score by up to 116.8%; and **ii)** Tracer achieves a higher recall by up to 18.4% than **state-of-the-art vulnerability databases**, but sacrifices up to 12.0% fewer CVEs (whose patches are not found) and 6.4% lower precision. Our evaluation has also demonstrated the **generality and usefulness** of Tracer.
+Our extensive evaluation has indicated that i) Tracer finds patches for up to 273.8% more CVEs than existing heuristic-based approaches while achieving a significantly higher F1-score by up to 116.8%; and ii) Tracer achieves a higher recall by up to 18.4% than state-of-the-art vulnerability databases, but sacrifices up to 12.0% fewer CVEs (whose patches are not found) and 6.4% lower precision. Our evaluation has also demonstrated the generality and usefulness of Tracer.
 
 
 
@@ -53,6 +49,11 @@ Both Breadth Dataset and Depth Dataset can be found [here](https://github.com/pa
 
 
 # Supplementary Materials
+
+The supplementary materials are omitted from the submitted paper due to space limitations, and the PDF document can be found [here](https://github.com/patch-tracer/patch-tracer.github.io/blob/main/icse2022-paper1454-supplementary_material.pdf).
+
+
+
 ## Dataset Analysis
 
 We analyzed the 1,295 CVEs in our depth dataset with respect to years and programming languages. We determined the programming language of a CVE by analyzing the changed source files in patches. As shown in Fig.1a, the number of CVEs increases every year, which is consistent with [Snyk’s report](https://snyk.io/wp-content/uploads/sooss_report_v2.pdf). As reported in Fig. 1b, these CVEs mainly cover seven programming languages, which demonstrates relatively good coverage of ecosystems. Therefore, we believe that our depth dataset is representative of OSS vulnerabilities.

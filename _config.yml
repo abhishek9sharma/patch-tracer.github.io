@@ -1,6 +1,5 @@
-theme: jekyll-theme-architect
-title: Tracer
-description: Finding Patches for OSS Vulnerabilities
+theme: jekyll-theme-cayman
+title: Finding Patches for Open Source Software Vulnerabilities
 
 show_downloads: true
 view_project: true
