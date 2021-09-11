@@ -14,7 +14,7 @@ For each CVE, two of the authors separately found its patches by analyzing patch
 
 ##### Update
 
-We have made the datasets publicly available. And We hope it can be a basis for possible follow-up researches, which require accurate mapping between CVEs and patches.
+We have made the datasets publicly available. And We hope it can be a basis for follow-up researches, which require accurate mapping between CVEs and patches.
 
 If you have any questions or issues, please feel free to report an issue. We will continue to maintain these datasets. So many thanks for your feedback😄. 
 
