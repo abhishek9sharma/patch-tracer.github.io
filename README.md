@@ -31,7 +31,7 @@ Our extensive evaluation has indicated that i) Tracer finds patches for up to 27
 
 # Source Code
 
-We have made the source code of Tracer publicly available [here](https://github.com/patch-tracer/patch-tracer.github.io/tree/main/Tracer%20Code). We hope it can benefit follow-up researchers or engineers in the field of OSS vulnerability management.
+We have made the source code of Tracer publicly available [here](https://github.com/patch-tracer/patch-tracer.github.io/tree/main/Source%20Code). We hope it can benefit follow-up researchers or engineers in the field of OSS vulnerability management.
 
 
 
