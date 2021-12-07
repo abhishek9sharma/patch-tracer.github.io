@@ -13,11 +13,7 @@ The [paper](https://arxiv.org/abs/2112.02240) "TRACER: Finding Patches for Open 
 - [Experimental Data](#experimental-data)
   + [Empirical Study](#empirical-study)
   + [Evaluation](#evaluation)
-<!-- - [Supplementary Materials](#supplementary-materials)
-  + [Dataset Analysis](#dataset-analysis)
-  + [Accuracy Analysis](#accuracy-analysis)
-  + [Sensitivity Analysis](#sensitivity-analysis)
-  + [Application Analysis](#application-analysis) -->
+
 
 # Tracer
 ---
