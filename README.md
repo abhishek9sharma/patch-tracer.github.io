@@ -1,6 +1,7 @@
 # Welcome to Tracer's Repository！
 
-The paper "Finding Patches for Open Source Software Vulnerabilities" has been submitted to ICSE2022. This page lists the supplementary materials that are omitted from the paper due to space limitations, (i.e., dataset, accuracy, sensitivity, and application analysis), and releases the experimental data and Tracer's source code.
+The [paper](https://arxiv.org/abs/2112.02240) "TRACER: Finding Patches for Open Source Software Vulnerabilities" has been submitted to TSE. This page releases the experimental data and Tracer's source code.
+<!-- This page lists the supplementary materials that are omitted from the paper due to space limitations, (i.e., dataset, accuracy, sensitivity, and application analysis), and releases the experimental data and Tracer's source code. -->
 
 **Table of Contents**
 
@@ -9,11 +10,11 @@ The paper "Finding Patches for Open Source Software Vulnerabilities" has been su
 - [Experimental Data](#experimental-data)
   + [Empirical Study](#empirical-study)
   + [Evaluation](#evaluation)
-- [Supplementary Materials](#supplementary-materials)
+<!-- - [Supplementary Materials](#supplementary-materials)
   + [Dataset Analysis](#dataset-analysis)
   + [Accuracy Analysis](#accuracy-analysis)
   + [Sensitivity Analysis](#sensitivity-analysis)
-  + [Application Analysis](#application-analysis)
+  + [Application Analysis](#application-analysis) -->
 
 ---
 
@@ -53,7 +54,7 @@ Both Breadth Dataset and Depth Dataset can be found [here](https://github.com/pa
 
 
 
-# Supplementary Materials
+<!-- # Supplementary Materials
 
 These materials are omitted from the submitted paper due to space limitations, and the PDF document can be found [here](https://github.com/patch-tracer/patch-tracer.github.io/blob/main/icse2022-paper1454-supplementary_material.pdf).
 
@@ -89,7 +90,7 @@ For applications that need **high patch recall**, Tracer can be configured to no
 
 These results demonstrate that the two variants of Tracer can meet the practical requirements of high precision and high recall.
 
-
+ -->
 
 
 
